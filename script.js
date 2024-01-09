@@ -2,14 +2,14 @@ function verificarDocumento() {
     const codigo = document.getElementById('codigo').value;
 
     const codigosValidos = {
-        '123': {
-            nome: 'Fulano de Tal',
-            cpf: '123.456.789-00',
-            curso: 'Curso X',
+        '0556320472': {
+            nome: 'FRANCISCO FERREIRA LIMA DA SILVA JUNIOR',
+            cpf: '043.930.453-94',
+            curso: 'GWO',
             cargaHoraria: '40 horas',
-            instituicao: 'Instituição Y',
-            local: 'Cidade Z',
-            dataConclusao: '01/01/2023'
+            instituicao: 'CEDUCAT',
+            local: 'NATAL - RN',
+            dataConclusao: '15/12/2023'
         },
         '456': {
             // Informações para outro código válido
